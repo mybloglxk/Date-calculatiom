@@ -1,0 +1,22 @@
+<html>
+    <body>
+    <h1>hello</h1>
+    <form action="/cgi/math_cgi" method="GET">
+        a: <input type="text" name="a"><br>
+        b: <input type="text" name="b"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <form action="/cgi/upload" method="post"
+                                   enctype="multipart/form-data">
+        <label for="file">Filename:</label>
+        <input type="file" name="file" id="file" /> 
+        <br />
+        <input type="submit" />
+    </form>
+
+    <a href="/h" download="h">h</a>
+
+    </body>
+</html>

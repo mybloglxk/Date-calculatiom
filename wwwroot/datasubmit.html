@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+
+body {background-image:url(123.jpg) }
+h1 {background-color: #00ff00}
+h2 {background-color: transparent}
+p {background-color: rgb(250,0,255)}
+
+p.no2 {background-color: gray; padding: 20px;}
+
+</style>
+
+</head>
+
+<body>
+<h2>Data Calculatol</h2>
+
+<form action = "/cgi/Data" method = "GET">
+<input type="text" name="year">
+	<file>year </file><input type="text" name="month"><file> month </file>
+	<input type="text" name="day"><file>day </file>
+	<br>and</br>
+<input type="text" name="year" value="1970">
+	<file>year </file><input type="text" name="month"><file> month </file>
+	<input type="text" name="day"><file>day </file></br>
+	<br>differ<textarea readonly ="readonly"></textarea>
+	<output name="day" for="year month day"><file>days</file></output></br>
+	<input type="submit" value="calculation">
+</form>
+<br></br>
+<form action = "/cgi/Data" method = "GET">
+<input type="text" name="year">
+	<file>year </file><input type="text" name="month"><file> month </file>
+	<input type="text" name="day"><file>day </file></br>
+	<br><input type="test" name="day">
+		<file>days </file></br>
+		<input type="submit" value="calculation">
+	
+	<br><textarea readonly ="readonly"></textarea>
+	<file>year </file><textarea readonly ="readonly"></textarea><file> month </file>
+	<textarea readonly ="readonly"></textarea><file>day </file></br>
+</form>
+
+
+</body>
+</html>
+
